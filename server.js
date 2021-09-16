@@ -6,7 +6,7 @@ const needle = require('needle')
 require('dotenv').config()
 const cors = require('cors');
 const TOKEN = process.env.TWITTER_BEARER_TOKEN
-const PORT = process.env.TWITTER_PORT
+const PORT = process.env.PORT
 
 const app = express()
 app.use(cors());
