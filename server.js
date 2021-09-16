@@ -13,7 +13,7 @@ app.use(cors());
 
 const server = http.createServer(app)
 const io = socketIo(server, { cors: {
-    origin: "http://localhost:3000",
+    origin: "https://goofy-bose-088300.netlify.app",
     methods: ["GET", "POST"],
     credentials: false
 }})
